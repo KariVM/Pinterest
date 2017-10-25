@@ -1,0 +1,152 @@
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+
+.file1 li {
+    font-size: 22px;
+    padding: 0 20px;
+   display: inline-block;
+}
+
+.file1 li .IconR {
+  color: #B22222;
+  font-size: 35px;
+}
+
+.file1 .boxsearch {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin: 0 16px;
+  width: 60%;
+  height: 20px;
+  padding: 10px;
+}
+
+.file1 .boxsearch .buscaIconos{
+  width: 100%;
+}
+
+.file1 .boxsearch .buscaIconos input {
+    width: 80%;
+    border: none;
+    line-height: 20px;
+    font-size: 20px;
+    outline: 0;
+    background-color: transparent;
+}
+
+.file1 .cliente a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 27px;
+}
+
+.file1 .cliente .icons {
+  padding-left: 17px;
+}
+
+/* Todo file 2 */
+.file2 {
+  width: 115%;
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+.file2 div{
+    display: inline-block;
+
+}
+
+.file2 div p {
+  text-align: center;
+  font-family: 'Monda', sans-serif;
+  color:white;
+  padding: 20px 10px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.file2 .box1 {
+  width: 8%;
+  border-radius: 6px;
+  background-color: rgb(135,206,235);
+}
+
+.file2 .box2 {
+  width: 8%;
+  border-radius: 6px;
+  background-color: rgb(176,224,230);
+}
+
+.file2 .box3 {
+  width: 8%;
+  border-radius: 6px;
+  background-color: rgb(255,192,203);
+}
+
+.file2 .box4 {
+  width: 8%;
+  border-radius: 6px;
+  background-color: rgb(255,228,196);
+}
+
+.file2 .box5 {
+  width: 7%;
+  border-radius: 6px;
+  background-color:rgb(244,164,96);
+}
+
+.file2 .box6 {
+  width: 8%;
+  border-radius: 6px;
+  background-color:rgb(72,209,204);
+}
+
+.file2 .box7 {
+  width: 8%;
+  border-radius: 6px;
+  background-color:rgb(255,127,80);
+}
+
+.file2 .box8 {
+  width: 9%;
+  border-radius: 6px;
+  background-color:rgb(72,61,139);
+}
+
+.file2 .box9 {
+  width: 9%;
+  border-radius: 6px;
+  background-color:rgb(219,112,147);
+}
+
+.file2 .box10 {
+  width: 9%;
+  border-radius: 6px;
+  background-color:rgb(255,192,203);
+}
+
+/* Aquí contenemos todas las imagenes*/
+.imags {
+  padding:0 20px;
+  margin-top: 175px;
+  column-width: 10px;
+  column-count: 4;
+  column-gap: 1px;
+  display: inline-block;
+}
+
+.imags .column {
+  margin-bottom: 5px;
+}
+
+.imags .column img {
+  border-radius: 15px;
+  max-width: 110%;
+}
